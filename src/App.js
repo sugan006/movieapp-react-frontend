@@ -141,10 +141,6 @@ const App = () => {
         setMovies(data);
     };
 
-    useEffect(() => {
-        searchMovies('');
-    },[]);
-
     return (
         <div className="app">
             <h1>MovieLand</h1>
